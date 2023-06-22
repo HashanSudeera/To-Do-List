@@ -1,0 +1,63 @@
+TO-DO-List
+
+[
+    (Task1,status1),
+    (Task2,status2),
+    (Task3,status3),
+    (Task4,status4)
+]
+
+===== TO-DO LIST =====
+
+Available commands:
+[1]  - add          : Add a new task
+[2]  - display      : Display all tasks
+[3]  - complete     : Mark a task as complete
+[4]  - in-complete  : Mark a task as in-complete
+[5]  - remove       : Remove a task
+[6]  - sort         : Sort tasks
+[7]  - edit         : Edit task details
+[8]  - quit         : Exit the program
+
+Enter a command: 
+
+
+
+
+
+
+- prioritize: Prioritize tasks
+- upcoming: View upcoming tasks
+- save: Save the to-do list
+- load: Load the to-do list
+
+
+select this interface : 
+
+-------------------------------------
+            TO-DO LIST
+-------------------------------------
+
+[1] Add Task
+[2] Display Tasks
+[3] Mark Task as Complete
+[4] Mark Task as In-Complete
+[5] Remove Task
+[6] Sort Tasks
+[7] Edit Task
+[8] Exit
+
+-------------------------------------
+
+Enter the number corresponding to your choice: 
+
+
+-------------------------------------
+            ADD TASK
+-------------------------------------
+
+Enter task title: 
+Enter task description: 
+Enter due date (optional): 
+
+Task added successfully!
