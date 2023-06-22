@@ -25,11 +25,7 @@ while True:
 
     elif u_choice == 6:
         todo.edit_task(to_do_list)
-    
-    elif u_choice == 8:
-        print("Heloo")
-        pass
-
+        
     elif u_choice == 7:
         print("-------------------------------------\nHave a Nice Day\n-------------------------------------\n")
         break
