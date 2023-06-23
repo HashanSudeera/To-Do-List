@@ -9,7 +9,8 @@ def to_do_menu():
     print("[4] Mark Task as In-Complete")
     print("[5] Remove Task")
     print("[6] Edit Task")
-    print("[7] Exit")
+    print("[7]Save")
+    print("[8] Exit")
     print("\n-------------------------------------")
 
 def add_task(todo_list:list,status:bool):
@@ -112,6 +113,10 @@ def edit_task(todo_list:list):
                 break
 
         break
+
+#save todo list function
+def save_todo(todolist:list):
+    pass
             
             
 
