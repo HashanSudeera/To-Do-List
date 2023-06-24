@@ -1,5 +1,7 @@
 '''This module has To-Do-List funtions and elements'''
 
+import csv
+
 def to_do_menu():
     '''This is To-do-list main menu'''
     print("-------------------------------------\nTO-DO LIST\n-------------------------------------\n")
@@ -9,7 +11,8 @@ def to_do_menu():
     print("[4] Mark Task as In-Complete")
     print("[5] Remove Task")
     print("[6] Edit Task")
-    print("[7] Exit")
+    print("[7] Save")
+    print("[8] Exit")
     print("\n-------------------------------------")
 
 def add_task(todo_list:list,status:bool):
@@ -112,6 +115,19 @@ def edit_task(todo_list:list):
                 break
 
         break
+
+#save todo list function
+def save_todo(todolist:list,file):
+    
+    with open(file, "a", newline= '') as todo_save_file:
+        writer = csv.writer(todo_save_file)
+        writer.writerows(todolist)
+            
+
+
+
+
+
             
             
 
