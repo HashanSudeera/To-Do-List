@@ -27,7 +27,7 @@ while True:
 
     elif u_choice == 6:
         todo.edit_task(to_do_list)
-    
+        
     elif u_choice == 7:
         todo.save_todo(to_do_list,file_path)
         print("Save Successful!")
