@@ -2,6 +2,8 @@ import to_do_module as todo
 
 to_do_list = []
 
+file_path = "E:\Files\Programming\python\Learn Python\To_Do_list\_todo_save.csv"
+
 while True:
     todo.to_do_menu()
     u_choice = int(input("Enter the number corresponding to your choice:"))
@@ -25,7 +27,11 @@ while True:
 
     elif u_choice == 6:
         todo.edit_task(to_do_list)
-
+    
     elif u_choice == 7:
+        todo.save_todo(to_do_list,file_path)
+        print("Save Successful!")
+
+    elif u_choice == 8:
         print("-------------------------------------\nHave a Nice Day\n-------------------------------------\n")
         break
